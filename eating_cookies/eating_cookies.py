@@ -1,11 +1,16 @@
+from itertools import product
+
 '''
 Input: an integer
 Returns: an integer
 '''
-def eating_cookies(n):
+def eating_cookies(n: int) -> int:
     # Your code here
+    #base case
+    if n == 1:
+        return 1
 
-    pass
+    return n
 
 if __name__ == "__main__":
     # Use the main function here to test out your implementation
